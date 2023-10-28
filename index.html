@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmol Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Anmol Prabhakar</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <!--<li><a href="#projects">Projects</a></li>-->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Anmol Prabhakar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <!--<li><a href="#projects" onclick="toggleMenu()">Projects</a></li>-->
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="anmol.PNG" alt="Anmol Prabhakar profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Anmol Prabhakar</h1>
+            <p class="section__text__p2">Chartered Financial Analyst</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('Anmol_resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div class="socialIcons">
+            <div id="socials-container">
+                <!--<a href="https://www.facebook.com/anmol.prabhakar.7902?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/an.mol_prab29?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/AnmolPrabhakar8?t=EjGpVU1lGWsbZBrFWKRiSw&s=09"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>-->
+                <a href="https://in.linkedin.com/in/anmol-prabhakar"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            </div>
+        </div>
+        <img src="arrowDouble.png" alt="Arrow icon" height="20px" width="20px" onclick="location.href='./#about'">
+    </section>
+    <section id="about">
+        <div class="about_me_text">
+            <p class="section__text__p1">Get To Know More </p>
+            <h1 class="title">About Me</h1>
+        </div>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="anmol_formal_resize.jpeg" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Investment Analyst<br>Derivatives Structuring Intern</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="edu.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Tech Mechanical Engineering<br></p>
+                    </div>
+
+                </div>
+                <div class="text-container">
+                    <p>I'm Anmol, a fourth-year Mechanical Engineering student at IIT Bombay with a passion for finance, startups, and geopolitics. I'm a critical thinker and problem solver, and I've gained hands-on experience through internships in finance, management, and operations. I'm also a networking enthusiast, and I'm always eager to connect with like-minded professionals who share my interests.<br><br>
+
+                    My ultimate goal is to play a pivotal role in the growth of startups and innovative ventures by leveraging my diverse skill set and knowledge. If you share my passion for venture capital, startups, or global affairs, I encourage you to reach out. Together, we can make a difference.<br><br></p>
+                    
+                </div>
+                
+            </div>
+            <img src="arrowDouble.png" alt="Arrow icon" height="20px" width="20px" onclick="location.href='./#experience'">
+        </div>
+       
+    </section>
+    <section id="experience">
+        <div class="about_me_text">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+        </div>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Derivatives Structuring Intern</h2>
+                    <div class="article-container">
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Financial Modeling</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Technical Analysis</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Visual Basic for Applications</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Microsoft Excel</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Investment Analyst</h2>
+                    <div class="article-container">
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Investment Analysis</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Market Research</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Operations, Media & PR Manager</h2>
+                    <div class="article-container">
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Event Management</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Event Planning</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Marketing</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Events and Operations Coordinator</h2>
+                    <div class="article-container">
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Public Relations</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Relationship Building</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Cooperation</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i style="font-size:24px" class="fa">&#xf058;</i>
+                            <div>
+                                <h3>Team Leadership</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="arrowDouble.png" alt="Arrow icon" height="20px" width="20px" onclick="location.href='./#contact'">
+    </section>
+   <!-- <section id="projects" class="project-section">
+        <div class="about_me_text">
+            <p class="section_text-p1">Know My</p>
+            <h1 class="title">Projects</h1>
+        </div>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="selfDrivingCar2_resize.png" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <!--<div class="btn-container">
+                    <button class="btn btn-color-2 project-btn">Know More</button>
+                </div>
+                <div id="projectDescription1" class="project-description">
+                    <p>Training Self-Driving Car using Deep Learning Techniques | Preprocessed 7400+ images | Achieved 81% accuracy<br>
+                        ▪ Amplified the dataset size by 100% implementing impactful Data Augmentation methods like flipping and zooming<br>
+                        ▪ Utilized Keras-based Transfer Learning on the ResNet-50 architecture to accurately predict necessary vehicle rotation<br></p>
+                </div>
+                
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="IBcomp_resize.png" alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <!--<div class="btn-container">
+                    <button class="btn btn-color-2 project-btn">Know More</button>
+                </div>
+                <div id="projectDescription1" class="project-description">
+                    <p>Analyzed Britannia’s potential acquisition by HUL, incorporating financial modeling, synergy evaluation & risk analysis <br>
+                        ▪ Identified 15.2% overvaluation for Britannia stocks through DCF valuation; computed Beta, Cost of Equity, and WACC<br>
+                        ▪ Led non-financial analysis, spotting alignment, fit and risk mitigation, advising the acquisition for HUL’s profitability<br></p>
+                </div>
+                
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="lean6sigma_resize.jpg" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <!--<div class="btn-container">
+                    <button class="btn btn-color-2 project-btn">Know More</button>
+                </div>
+                <div id="projectDescription1" class="project-description">
+                    <p>Awarded Green Belt Certification for 32-hour training in enhancing operational efficiency and process improvement<br>
+                        ▪ Reduced production cycles (27%) & improved operational efficiency (15%) in 2 industry projects by leveraging Minitab<br>
+                        ▪ Engaged in 10+ case studies across industries using LSS tools to address inefficiencies and drive operational excellence<br></p>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="optionHedging_resize.png" alt="Project 4" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Four</h2>
+                <!--<div class="btn-container">
+                    <button class="btn btn-color-2 project-btn">Know More</button>
+                </div>
+                <div id="projectDescription1" class="project-description">
+                    <p>Implemented dynamic portfolio hedging strategies with options, achieving significant risk reduction across diverse assets<br>
+                        ▪ Enhanced risk-adjusted decisions by 40%, utilizing Python script for accurate theoretical option and Greeks calculations<br>
+                        ▪ Attained a 30% reduction in portfolio liquidation risk using options Greeks to analyze and fine tune option portfolios<br></p>
+                </div>
+                
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="finSearch_resize.png" alt="Project 5" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Five</h2>
+                <!--<div class="btn-container">
+                    <button class="btn btn-color-2 project-btn">Know More</button>
+                </div>
+                <div id="projectDescription1" class="project-description">
+                    <p>Assessment of climate change impact and risk exposure on the financial performance of 30+ firms across categories<br>
+                        ▪ Assessed climate change impact on 10+ polar firms' operations, finances and sustainability using financial indicators<br>
+                        ▪ Devised ESG-sensitive investment strategies with risk tolerance and optimal climate-conscious portfolios for investors<br></p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <img src="arrowDouble.png" alt="Arrow icon" height="20px" width="20px" onclick="location.href='./#contact'">
+    </section>-->
+    <section id="contact">
+        <div class="about_me_text">
+            <p class="section_text-p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+        </div>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                
+                        <ion-icon name="mail"></ion-icon>
+                        <p><a href="mailto:3anmolprabhakar@gmail.com">Mail</a></p>
+                    
+                
+                        <i class="fa-brands fa-linkedin"></i>
+                        <p><a href="https://in.linkedin.com/in/anmol-prabhakar">LinkedIn</a></p>
+                    
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <!--<li><a href="#projects">Projects</a></li>-->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Anmol Prabhakar. All Rights Reserved.</p>
+    </footer>
+    
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/08a239e27d.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>     
+</body>
+</html>
